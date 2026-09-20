@@ -5,4 +5,5 @@ test('test one',async function testone({browser}){
     const page=await context.newPage();
     await page.goto("https://automationpracticehub.com/");
     await page.waitForTimeout(5000);
+     await page.waitForTimeout(5000);
 });
